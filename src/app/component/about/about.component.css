@@ -1,0 +1,43 @@
+.header {
+    font-weight: 700;
+    font-size: 2em;
+    font-weight: bold;
+    color: #2d3a6e;
+}
+
+.about-page { 
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page > p { 
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    font-size: 1.1em;
+}
+
+.about-page > hr {
+    height: 5px;
+    background-color: #2d3a6e; 
+    border: none; 
+    margin-top: 1em; 
+    margin-bottom: 1.5em;
+    width: 10%;
+}
+
+@media (min-width: 640px) {
+    .header {
+        font-weight: 800;
+        font-size: 6em;
+        font-weight: bold;
+        color: #2d3a6e;
+    }
+
+    .about-page > p { 
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        font-size: 1.5em;
+    }
+}

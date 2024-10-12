@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.nav-items {
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+}
+
+.navbar > img {
+    max-width: 3rem;
+}
+
+@media (min-width: 640px) {
+    .navbar {
+        display: flex;
+        margin: 1.5rem;
+        gap: 1rem;
+    }
+
+    .navbar > img {
+        max-width: 5rem;
+    }
+}
